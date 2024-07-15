@@ -1,0 +1,16 @@
+{% extends "index.html" %}
+
+{%- block title -%}
+{{ title_macros::title(page_title=section.title, main_title=config.title) }}
+{%- endblock -%}
+
+{% block content %}
+    <div class="post">
+        <h1 class="post-title">{{ section.title }}</h1>
+            {{ post_macros::content(page=section,
+                                   summary=false,
+                                   show_only_description=page.extra.show_only_description | default(value=false))
+            }}
+            {{ post_macros::list_posts(pages=section.pages) }}
+    </div>
+{% endblock content %}
