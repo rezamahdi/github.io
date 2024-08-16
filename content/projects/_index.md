@@ -1,6 +1,6 @@
 ---
 title: Projects list
-keywords: projects
+#keywords: projects
 ---
 
 Here you find projects I create.
