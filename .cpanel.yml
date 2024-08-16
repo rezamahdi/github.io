@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/rzmahdi1/public_html/
+    - git submodule init
+    - git submodule update
+    - /home/rzmahdi1/zola build -u 'https://rzmahdi.ir' -o $DEPLOYPATH
+
