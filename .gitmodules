@@ -2,3 +2,6 @@
 	path = themes/terminimal
 	url = https://github.com/pawroman/zola-theme-terminimal.git
 	branch = master
+[submodule "themes/terminimal-custom"]
+	path = themes/terminimal-custom
+	url = https://github.com/rezamahdi/zola-theme-terminimal.git
