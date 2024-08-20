@@ -1,5 +1,6 @@
 +++
 title = "Monad Error Handling in C++"
+date = 2023-09-06
 
 [taxonomies]
 tags = ["c++"]
