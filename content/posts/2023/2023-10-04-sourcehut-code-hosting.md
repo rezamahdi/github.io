@@ -1,12 +1,14 @@
----
-title: SourceHut Code Hosting
-taxonomies:
-  tags: [git, code_hosting, sourcehut]
-showFullContent: false
----
++++
+title = "SourceHut Code Hosting"
+
+[taxonomies]
+tags = ["git", "code_hosting", "sourcehut"]
++++
 
 I really love traditional thenchniques. No mater about what. Well, lets face it; Git is a decentralized VCS. Many new
 programmers even don't know it. Many of people even think the git is a tool that relates to Github!
+
+<!-- more -->
 
 In recent years, using online services jumped up and people don't need to install many of traditional applications on
 their systems. Alltoghether this facts are removing the tradition (that is the reallity) of systems from peoples' mind.

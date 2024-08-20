@@ -27,6 +27,7 @@ taxonomies = [
 highlight_code = true
 
 [extra]
+author = "Reza Mahdi"
 # Put all custom variables here
 accent_color = "orange"
 background_color = "dark"
@@ -34,15 +35,22 @@ logo_text = "Perfectionist Programmer"
 menu_items = [
     # each of these is optional, name and url are required
     # $BASE_URL is going to be substituted by base_url from configuration
-    {name = "blog", url = "$BASE_URL/posts"},
+    {name = "blog", url = "$BASE_URL"},
     
     # tags should only be enabled if have "tags" taxonomy
     # see documentation below for more details
     {name = "tags", url = "$BASE_URL/tags"},
+    {name = "archive", url = "$BASE_URL/archive"},
     {name = "projects", url = "$BASE_URL/projects"},
     {name = "about me", url = "$BASE_URL/about"},
     
     # set newtab to true to make the link open in new tab
     #{name = "git", url = "http://git.rzmahdi.ir", newtab = true},
 ]
+
+# The text shown at the bottom of a post,
+# before earlier/later post links.
+# Defaults to "Thanks for reading! Read other posts?"
+post_view_navigation_prompt = "Read more"
+
 copyright_html = "Copyright&nbsp;<b>Reza Mahdi</b>"

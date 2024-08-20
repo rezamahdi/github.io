@@ -1,8 +1,9 @@
----
-title: Monad Error Handling in C++
-taxonomies:
-  tags: [c++]
----
++++
+title = "Monad Error Handling in C++"
+
+[taxonomies]
+tags = ["c++"]
++++
 
 Well, finally I faced to a new problem that I love :-).
 
@@ -13,6 +14,8 @@ mis-behavior.
 
 So what is the alternative? well, it is your choise! You can use C-ish error handling, or follow LLVM and Google.
 
+<!-- more -->
+ 
 As the google projects, like chromium and gRPC, and LLVM itself
 are really grate works, and are VERY ACTIVELLY maintain, there must be advices in them that how error handling is done.
 

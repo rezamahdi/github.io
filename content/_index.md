@@ -1,7 +1,4 @@
----
-title: "Perfectionist Programmer"
----
-
-Wellcom to my blog
-
-
++++
+paginate_by = 4
+sort_by = "date"
++++
