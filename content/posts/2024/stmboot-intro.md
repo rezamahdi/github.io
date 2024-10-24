@@ -60,5 +60,5 @@ table. If in total keep the size as 32KB, 96KB remains for partitions.
 
 # Parts
 1. Intorduction
-2. [Partition Table](@/posts/2024/stmboot-intro.md)
+2. [Partition Table](@/posts/2024/stmboot-partition-table.md)
 3. [Authentication and party roles](@/posts/2024/stmboot-intro.md)
